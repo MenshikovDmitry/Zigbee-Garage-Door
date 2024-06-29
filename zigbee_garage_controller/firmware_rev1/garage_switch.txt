@@ -1,0 +1,10 @@
+Board type: CC2530
+Device type: Router
+Status LED: P00, Periodic (every 5 seconds)
+
+Output pins:
+P12: Output 1, Pulse switch, Pull-down (Impulse (ms): 300, Restore after power off: Off, Change to state after interval: Off, Interval (sec): 1)
+P13: Output 2, Pulse switch, Pull-down (Impulse (ms): 300, Restore after power off: Off, Change to state after interval: Off, Interval (sec): 1)
+
+Input pins:
+P01: Input 1, GPIO, Pull-up (Bind command: Toggle)
