@@ -1,7 +1,6 @@
 # Zigbee Garage Door Opener
 This is a DIY Zigbee garage door opener, designed for use with Home Assistant and [Zigbee2MQTT](https://www.zigbee2mqtt.io/).
-It supports any dry-contact operated garage door or other device. The device exposes 2 switches for relays and two reed switches for the feedback.
-
+It supports any dry-contact-operated garage door or other device that requires a dry contact. The device includes two switches for relays and two door sensors (reed switches) for feedback. Each switch functions as a pulse switch when activated: it triggers the relay for 300 ms and then turns off.
 **!! This repository is currently under development, stay tuned !!**
 
 Disclaimer: This project is provided as is. The author is not responsible for any damage caused by the project. Wiring might be dangerous due to high voltage and must be done by a professional.
